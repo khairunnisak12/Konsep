@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="form.css"> <!-- Hubungkan dengan file CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Pendaftaran Olahraga</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" required></td>
+                </tr>  
+                <tr>
+                    <td>NIM</td>
+                    <td>:</td>
+                    <td><input type="text" name="nim" required></td>
+                </tr>
+                <tr>
+                    <td>Universitas</td>
+                    <td>:</td>
+                    <td><input type="text" name="universitas" required></td>
+                </tr>
+                <tr>
+                    <td>Fakultas</td>
+                    <td>:</td>
+                    <td><input type="text" name="fakultas" required></td>
+                </tr>
+                <tr>
+                    <td>Prodi</td>
+                    <td>:</td>
+                    <td><input type="text" name="prodi" required></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jenis_kelamin" value="Laki-laki" required>Laki-laki
+                        <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="agama" value="Islam">Islam
+                        <input type="checkbox" name="agama" value="Kristen">Kristen
+                        <input type="checkbox" name="agama" value="Hindu">Hindu
+                        <input type="checkbox" name="agama" value="Budha">Budha
+                        <input type="checkbox" name="agama" value="Lainnya">Lainnya
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="alamat" rows="5" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Cabang Olahraga</td>
+                    <td>:</td>
+                    <td>
+                        <select name="cabang_olahraga" required>
+                            <option>Pilih Cabang Olahraga</option>
+                            <option>Badminton</option>
+                            <option>Sepak Bola</option>
+                            <option>Basket</option>
+                            <option>Tenis Meja</option>
+                            <option>Berenang</option>
+                            <option>Lari Estafet</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="email" required></td>
+                </tr>
+            </table>
+            <input type="submit" value="SIMPAN">
+            <input type="reset" value="RESET">
+        </form>
+    </div>
+</body>
+</html>

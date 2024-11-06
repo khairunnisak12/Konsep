@@ -1,0 +1,49 @@
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(240, 188, 224);
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.radio-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(238, 155, 223);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background color 0.3s ease;
+}
+
