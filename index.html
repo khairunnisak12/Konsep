@@ -1,55 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laman Formulir</title>
-    <link rel="stylesheet" href="style.css">
+    <title>WSport Landing Page</title>
+    <link rel="stylesheet" href="exercise.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<h2 style="text-align: center; color:rgb(0, 0, 0)">Formulir Pendaftaran</h2>
 <body>
-    <form action="" method="post">
-        <label for="nama">Nama:</label>
-        <input type="text" id="nama" name="nama" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="nomor">Nomor Telepon:</label>
-        <input type="tel" id="nomor" name="nomor" required>
-
-        <label for="tanggal">Tanggal Lahir:</label>
-        <input type="date" id="tanggal" name="tanggal" required>
-
-<!--memilih jenis kelamin-->
-        <label for="Jenis Kelamin">Jenis Kelamin:</label>
-        <select id="Jenis Kelamin" name="Jenis Kelamin">
-            <option value="">Pilih jenis kelamin</option>
-            <option value="Pria">Pria</option>
-            <option value="Wanita">Wanita</option>
-        </select>
-
-
-        <!--memilih status-->
-        <label>Status:</label>
-        <div class="radio-group">
-            <input type="radio" id="Pelajar" name="Status" value="Pelajar">
-            <label for="Tidak Pelajar">Tidak Pelajar</label>
-
-            <input type="radio" id="Mahasiswa" name="Status" value="Mahasiswa">
-            <label for="Mahasiswa">Mahasiswa</label>
-
-            <input type="radio" id="Pekerja" name="Status" value="Pekerja">
-            <label for="Pekerja">Pekerja</label>
+    <header class="navbar-container">
+        <div class="logo">
+            <h2>WSport</h2>
         </div>
-
-        <label for="Pesan ">Tuliskan Ulasan Anda</label>
-        <textarea name="Pesan" id="Pesan" rows="5" placeholder="Tuliskan Pesan dan Komentar Anda"></textarea>
-        
-
-    <button type="submit">Kirim</button>
-
-    </form>
-    
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Sertifikat</a></li>
+                <li><a href="#">Kontak</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-description">
+                <h1 class="tittle">Selamat Datang di WSport!</h1>
+                <p>Selamat datang di laman resmi lomba olahraga kami! Kami dengan bangga 
+                    mempersembahkan kompetisi olahraga tahunan yang diselenggarakan oleh Program Studi Teknologi Informasi 
+                    di Universitas Uin Ar-raniry 
+                    Daftarkan diri Anda sekarang, tunjukkan kemampuan terbaik Anda, dan jadilah bagian dari semangat olahraga di kampus kami. 
+                    </p>
+                    <a href="html/form.html">
+                        <button>Registrasi</button>
+                    </a>
+            </div> 
+            <div class="content-image">
+                <img src="gambar2.jpg" alt="Profile">  
+            </div>
+        </div>
+        <aside>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://web.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
 </body>
 </html>
